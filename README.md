@@ -1,6 +1,7 @@
 # git_userProfile
 
-First of all, apologies for the delay. This is very much still a WIP.
+First of all, apologies for the delay. This is very much still a WIP. 
+I will be cleaning this up & making it more attractive over the next few days, if you would like to be updated with the final release, please let me know & I can have have the updated link sent for review.
 
 # To Test:
 - git clone https://github.com/Kay2dan/git_userProfile.git
