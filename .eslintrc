@@ -1,0 +1,41 @@
+{
+  "extends" : "eslint:recommended",
+  "parserOptions" : {
+     "ecmaVersion" : 6,
+     "ecmaFeatures" : {
+        "jsx" : true,
+        "experimentalObjectRestSpread" : true
+     },
+     "sourceType" : "module"
+  },
+  "env" : {
+     "browser" : true,
+     "node" : true
+   },
+  "plugins" : [
+      "react"
+   ],
+   "rules" : {
+//    0 - turn the rule off
+//    1 - turn the rule on as a warning (doesn't affect exit code)
+//    2 - turn the rule on as an error (exit code will be 1)
+		"eol-last" : 0, // enforce newline at the end of file, with no multiple empty lines
+		"indent" : [ 1, "tab" ],
+		"jsx-quotes" : [ 1, "prefer-double" ],
+		"linebreak-style" : [ 2, "unix" ],  // always unix linebreaks
+		"new-cap" : 1,  // Require Constructors to Use Initial Caps
+	   "no-console" : 0,
+	   "no-debugger" : 1,
+	   "no-underscore-dangle" : 0, // Dangling Underscores in Identifiers
+	   "no-use-before-define" : 0,
+		"quotes" : [ 1, "double" ],
+	   "react/jsx-no-undef" : 1,
+	   "react/jsx-uses-react" : 1,
+	   "react/jsx-uses-vars" : 1,
+		"no-mixed-spaces-and-tabs" : [ 2, "smart-tabs" ],
+	   "no-undef" : 1, // no undefined variables
+	   "no-unused-vars" : 1,
+	   "semi" : [ 2, "always" ], // always semi-colon at end
+		"strict" : 1 // Strict Mode, !!!we will enable!!!
+	}
+}
