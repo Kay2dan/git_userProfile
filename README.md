@@ -21,7 +21,7 @@ First of all, apologies for the delay. This is very much still a WIP.
 
 # Notes:
 - As requested here is the breakdown of the time. I am enjoying using the service 'Toggl' for keeping track of my two projects, learning class & research daily. As per the service here is the breakdown:
-  - I spent a total of 18:57min on this.
+  - I spent a total of 18:57min on this over the period of 3 days.
   - Approx. 3 - 4 hrs spent on setting up the build system (webpack, bable, dev-server, npm packages etc).
   - 1hr on reading & researching about Heroku.
   - 1:35min on CSS.
