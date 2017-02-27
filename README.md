@@ -11,7 +11,7 @@ First of all, apologies for the delay. This is very much still a WIP.
     or
   npm run start-dev
   
-# Tech Used:
+# Tech:
 - React, ReactDOM
 - Immutable.js
 - Axios
